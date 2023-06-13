@@ -1,4 +1,6 @@
+# Requests: HTTP 요청을 보낼 수 있도록 기능을 제공하는 라이브러리
 import requests
+# BeautifulSoup: 웹 페이지의 정보를 쉽게 스크랩할 수 있도록 기능을 제공하는 라이브러리
 from bs4 import BeautifulSoup
 
 url = "https://search.naver.com/search.naver?where=news&sm=tab_pge&query=%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0&sort=0&photo=0&field=0&pd=0&ds=&de=&cluster_rank=25&mynews=0&office_type=0&office_section_code=0&news_office_checked=&nso=so:r,p:all,a:all&start=21"
