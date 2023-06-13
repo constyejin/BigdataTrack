@@ -56,3 +56,11 @@ class FourCal3:
 obj3 = FourCal3()
 
 print("전사3", obj3.add(10, 2), obj3.subst(10, 2))
+
+
+def main():
+  print("단독 실행 할 때만 보여집니다.")
+
+if __name__ == '__main__':
+  print(__name__)
+  main()
