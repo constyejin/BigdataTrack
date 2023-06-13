@@ -62,5 +62,7 @@ def main():
   print("단독 실행 할 때만 보여집니다.")
 
 if __name__ == '__main__':
+  # 파이썬에서 더블 언더 스코어로 구분되어지는 특별한 속성 또는 메서드 중 하나 __name__
+  # __name__ : 콘솔창에서 script로 실행되는 건지, import되는건지 구분 가능하게 해준다.
   print(__name__)
   main()
