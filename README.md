@@ -10,4 +10,4 @@ cd bigdataenv -> cd Scripts -> activate
 python filename.py
 
 ### WHOIS
-whois.nic.or.kr
+https://xn--c79as89aj0e29b77z.xn--3e0b707e/
