@@ -14,3 +14,6 @@ https://xn--c79as89aj0e29b77z.xn--3e0b707e/
 
 ### 크롤링 가능 범위 확인
 https://www.google.com/robots.txt
+
+### API 전달 확인
+https://www.postman.com/
