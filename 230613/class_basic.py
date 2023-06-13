@@ -13,11 +13,11 @@ class FourCal1:
 
 obj1 = FourCal1()
 obj1.setdata(5,2)
-print("전사", obj1.add(), obj1.subst())
+print("전사1", obj1.add(), obj1.subst())
 
 obj2 = FourCal1()
 obj2.setdata(2,2)
-print("마법사", obj2.add(), obj2.subst())
+print("마법사1", obj2.add(), obj2.subst())
 
 
 class FourCal2:
@@ -35,4 +35,4 @@ class FourCal2:
     return result
 
 obj2 = FourCal2(10, 5)
-print("2번", obj2.add(), obj2.subst())
+print("전사2", obj2.add(), obj2.subst())
