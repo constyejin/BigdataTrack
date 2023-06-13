@@ -1,4 +1,4 @@
-lst = [1, 5, 2, 4, 8, 2, 10] 
+lst = [1, 5, 2, 4, 8, 3, 10] 
 
 print(sum(lst))
 print(sorted(lst))
