@@ -14,11 +14,11 @@ class FourCal1:
 
 obj1 = FourCal1()
 obj1.setdata(5,2)
-print("전사1", obj1.add(), obj1.subst())
+# print("전사1", obj1.add(), obj1.subst())
 
 obj2 = FourCal1()
 obj2.setdata(2,2)
-print("마법사1", obj2.add(), obj2.subst())
+# print("마법사1", obj2.add(), obj2.subst())
 
 
 # 2
@@ -37,7 +37,7 @@ class FourCal2:
     return result
 
 obj2 = FourCal2(10, 5)
-print("전사2", obj2.add(), obj2.subst())
+# print("전사2", obj2.add(), obj2.subst())
 
 
 # 3 method로 바로 데이터를 받는다
@@ -55,7 +55,7 @@ class FourCal3:
 
 obj3 = FourCal3()
 
-print("전사3", obj3.add(10, 2), obj3.subst(10, 2))
+# print("전사3", obj3.add(10, 2), obj3.subst(10, 2))
 
 
 def main():
