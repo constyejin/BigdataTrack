@@ -13,4 +13,4 @@ class Cbup(fc3):
     return result
 
 obj1 = Cbup()
-print(obj1.add(5, 5), obj1.subst(5, 5), obj1.mul(5, 5), obj1.div(5, 5))
+print("전직전사", obj1.add(5, 5), obj1.subst(5, 5), obj1.mul(5, 5), obj1.div(5, 5))
