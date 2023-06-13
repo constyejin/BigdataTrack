@@ -7,6 +7,10 @@
 # obj2 = cb.FourCal3()
 # print(obj2.add(5, 2))
 
-from class_basic import FourCal3
-obj3 = FourCal3()
-print(obj3.add(5, 2))
+# from class_basic import FourCal3
+# obj3 = FourCal3()
+# print(obj3.add(5, 2))
+
+from class_basic import FourCal3 as fc3
+obj4 = fc3()
+print(obj4.add(5, 2))
