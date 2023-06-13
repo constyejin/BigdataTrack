@@ -27,3 +27,7 @@ for i, link in enumerate(links):
   # append는 덧붙인다는 뜻으로 괄호( ) 안에 값을 입력하면 새로운 요소를 array 맨 끝에 객체로 추가한다.
   # 2. extend()
   # iterable의 각 요소를 하나씩 array의 끝에 요소로 추가한다. append 함수와 다른 점은 괄호 안에 iterable 자료형만 올 수 있다.
+
+
+# python web crawling
+# https://katieyoon-the-developer.tistory.com/35
