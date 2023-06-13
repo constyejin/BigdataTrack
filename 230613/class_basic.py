@@ -13,4 +13,4 @@ class FourCal1:
 
 obj1 = FourCal1()
 obj1.setdata(5,2)
-print("1번", obj1.add())
+print("1번", obj1.add(), obj1.subst())
