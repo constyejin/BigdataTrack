@@ -8,3 +8,6 @@ cd bigdataenv -> cd Scripts -> activate
 
 ### run
 python filename.py
+
+### WHOIS
+whois.nic.or.kr
