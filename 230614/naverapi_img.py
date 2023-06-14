@@ -1,4 +1,5 @@
 # from requests import get
+# import requests시 response에서 requests.get 으로 작성
 import requests
 import time
 import os
