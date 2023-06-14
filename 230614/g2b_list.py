@@ -38,6 +38,7 @@ def get_data(keyword):
         print(keyword, i, bid_category, bid_id, bid_url, bid_class, bid_name, bid_org, need_org ,contact_type, create_date, modify_date)
 
         output_file = open(output_file_name, 'a', encoding='utf-8')
+        # python 숫자 앞에 0 붙이기 str().zfill(자릿수)
         output_file.write("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n".format(keyword, str(i + 1).zfill(2), bid_category, bid_id, bid_url, bid_class, bid_name, bid_org, need_org ,contact_type, create_date, modify_date))
         output_file.close()
 
