@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FDD7964-CDDA-C96F-9413-899BEECFA9DC" name="직원">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 00:42:15 UTC</createdTime>
+<ownerDesignName>과정관리시스템_논리모델</ownerDesignName>
+<engineerTo>
+<item key="88C90AFD-1926-5B85-BE4F-050476931739" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="사번" id="6A5D8AFD-3087-AEAF-95BB-753760BD6868">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 00:45:18 UTC</createdTime>
+<ownerDesignName>과정관리시스템_논리모델</ownerDesignName>
+<engineerTo>
+<item key="88C90AFD-1926-5B85-BE4F-050476931739" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="성명" id="15B97394-5B49-7DE0-6D8E-11ECD95090AD">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 00:45:34 UTC</createdTime>
+<ownerDesignName>과정관리시스템_논리모델</ownerDesignName>
+<engineerTo>
+<item key="88C90AFD-1926-5B85-BE4F-050476931739" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="상위관리자_사번" id="B8144088-F0DB-6E75-F180-A9C62D46F4A3">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 01:43:45 UTC</createdTime>
+<generatorID>F7CE16A6-D6EA-E18E-83D3-41857171DEDC</generatorID>
+<ownerDesignName>과정관리시스템_논리모델</ownerDesignName>
+<engineerTo>
+<item key="88C90AFD-1926-5B85-BE4F-050476931739" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6A5D8AFD-3087-AEAF-95BB-753760BD6868</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9FA78743-4C82-F043-40A8-051EDF8802D0" name="직원 PK">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 00:45:28 UTC</createdTime>
+<ownerDesignName>과정관리시스템_논리모델</ownerDesignName>
+<engineerTo>
+<item key="88C90AFD-1926-5B85-BE4F-050476931739" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A5D8AFD-3087-AEAF-95BB-753760BD6868</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4AA16A8-50D3-6A95-270F-1472EF4CF532" name="부서">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 00:47:48 UTC</createdTime>
+<generatorID>8BDE1D74-30B7-5384-3CCA-17B3CFD680F9</generatorID>
+<ownerDesignName>과정관리시스템_논리모델</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="부서번호" id="86E927AB-4EE4-3A0B-C6E3-3D338EB98BFE">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 00:47:48 UTC</createdTime>
+<generatorID>467DDDF1-C28E-736F-D07A-575E589679B3</generatorID>
+<ownerDesignName>과정관리시스템_논리모델</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="부서명" id="06CC4643-5915-070A-9970-8840090A5F89">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 00:47:48 UTC</createdTime>
+<generatorID>F51F4FE4-046A-C255-004D-F7CA45429C8A</generatorID>
+<ownerDesignName>과정관리시스템_논리모델</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D299CF68-F274-3F95-82CC-79DB3A368A96" name="부서_PK">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 00:47:48 UTC</createdTime>
+<generatorID>3DB9C040-97D9-3579-35FA-6DA9FEC171EC</generatorID>
+<ownerDesignName>과정관리시스템_논리모델</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86E927AB-4EE4-3A0B-C6E3-3D338EB98BFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

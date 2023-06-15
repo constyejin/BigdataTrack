@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FF159DE-A906-CCF4-440D-EF8934802889" name="직원">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 00:47:48 UTC</createdTime>
+<generatorID>1FDD7964-CDDA-C96F-9413-899BEECFA9DC</generatorID>
+<ownerDesignName>과정관리시스템_논리모델</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="사번" id="73D84546-EA8A-143C-0489-9E9BD81F09A8">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 00:47:48 UTC</createdTime>
+<generatorID>6A5D8AFD-3087-AEAF-95BB-753760BD6868</generatorID>
+<ownerDesignName>과정관리시스템_논리모델</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="성명" id="08D32314-E1A8-6781-119C-D24F657399E5">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 00:47:48 UTC</createdTime>
+<generatorID>15B97394-5B49-7DE0-6D8E-11ECD95090AD</generatorID>
+<ownerDesignName>과정관리시스템_논리모델</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="부서_부서번호" id="9B59FC6F-650D-F5A0-A5D8-2CCCB52050C9">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 00:47:48 UTC</createdTime>
+<generatorID>1A754021-7FD0-9532-01D2-442FFE9A75FD</generatorID>
+<ownerDesignName>과정관리시스템_논리모델</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD078A6E-4917-ADB0-E894-776164469DC1" referredColumn="86E927AB-4EE4-3A0B-C6E3-3D338EB98BFE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="256D7838-216F-BF17-8F3F-7B2BEC51A4DA" name="직원_PK">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 00:47:48 UTC</createdTime>
+<generatorID>9FA78743-4C82-F043-40A8-051EDF8802D0</generatorID>
+<ownerDesignName>과정관리시스템_논리모델</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73D84546-EA8A-143C-0489-9E9BD81F09A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DCDE95F-C429-9FAC-EA76-D15E478A176E" name="직원_부서_FK">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 00:47:48 UTC</createdTime>
+<generatorID>1D46B243-F841-89ED-AE79-93697D90B056</generatorID>
+<ownerDesignName>과정관리시스템_논리모델</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B59FC6F-650D-F5A0-A5D8-2CCCB52050C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
