@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F3EFE28-F74B-8377-D5F2-C6B99D600CAE" name="강사풀">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:18:40 UTC</createdTime>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<engineerTo>
+<item key="6FADD8F4-6164-4561-443B-08427C5BF80B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="과목번호" id="DFA92EC8-74A7-E708-9667-0FB968CF82EF">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:29:16 UTC</createdTime>
+<generatorID>D6F71FC4-CBD3-9C3F-2B78-1230B6289389</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<engineerTo>
+<item key="6FADD8F4-6164-4561-443B-08427C5BF80B" value="true"/>
+</engineerTo>
+<referedAttribute>4CD08292-3D8D-66D2-D848-911CD860604B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="강사번호" id="72146476-A4BF-F28A-AD88-47013A1AE79A">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:29:22 UTC</createdTime>
+<generatorID>C9ED85F6-64DA-E545-1FDF-D02C6AB431C7</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<engineerTo>
+<item key="6FADD8F4-6164-4561-443B-08427C5BF80B" value="true"/>
+</engineerTo>
+<referedAttribute>C61D93FC-C6D4-81DB-F7FC-A95E2DD68404</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="729D1B98-6469-01B9-B917-DB4113ED1DC2" name="강사풀 PK">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:29:16 UTC</createdTime>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6FADD8F4-6164-4561-443B-08427C5BF80B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DFA92EC8-74A7-E708-9667-0FB968CF82EF</attributeRef>
+<attributeRef>72146476-A4BF-F28A-AD88-47013A1AE79A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

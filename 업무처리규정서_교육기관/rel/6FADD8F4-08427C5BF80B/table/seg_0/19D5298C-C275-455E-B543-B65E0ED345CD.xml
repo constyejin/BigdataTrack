@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19D5298C-C275-455E-B543-B65E0ED345CD" name="과목">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>C30BF19D-38D2-D0FA-319A-9501FCDE5C47</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="과목번호" id="5BB464BE-6EB7-CF4C-CD25-AFDBE09D14AE">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>4CD08292-3D8D-66D2-D848-911CD860604B</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="과목명" id="D3D0164C-8A27-CAD8-D6CB-6C20A813C72F">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>85F5B809-6E93-30D0-AAFF-7AC209CD33F6</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="수업료" id="EA7ECFB4-157C-7743-5036-32BFB9CE2D9C">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>3DF3F511-152F-8084-FB1A-49EF225D4247</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="과목_과목번호" id="B8A4D912-2BA2-6E67-8DF5-BAC89D6BA237">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>CD4AC743-7BD3-CCF2-DAF7-6905CAB65908</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1D43D9B-38D9-635D-FFCF-99214FFD261B" referredColumn="5BB464BE-6EB7-CF4C-CD25-AFDBE09D14AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63AC38DC-78CF-2372-7DFE-1C182D9C1EB2" name="과목_PK">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>62D59E0D-81D2-C02A-AC39-60FFA0F78A0F</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BB464BE-6EB7-CF4C-CD25-AFDBE09D14AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BACF7AD-98E1-D8F3-299B-FF4CB1858DEC" name="과목_과목_FK">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>FF8DC825-417C-38E9-A669-30BF6F520B85</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8A4D912-2BA2-6E67-8DF5-BAC89D6BA237"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

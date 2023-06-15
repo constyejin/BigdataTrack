@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="16677B98-ECED-33BC-E66A-6AFF97AE1822" name="강의실">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:18:58 UTC</createdTime>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<engineerTo>
+<item key="6FADD8F4-6164-4561-443B-08427C5BF80B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="강의실번호" id="14515ADC-884C-600A-5692-DE0018013317">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:24:38 UTC</createdTime>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<engineerTo>
+<item key="6FADD8F4-6164-4561-443B-08427C5BF80B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="좌석수" id="7C1B09BF-F33F-2147-328E-38C7B1EF9DB8">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:24:43 UTC</createdTime>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<engineerTo>
+<item key="6FADD8F4-6164-4561-443B-08427C5BF80B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="강의실명" id="923489D9-A8E9-F7EC-B84E-F1C873EFAA6C">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:24:48 UTC</createdTime>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<engineerTo>
+<item key="6FADD8F4-6164-4561-443B-08427C5BF80B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54E8B257-DA00-A9A6-F90D-CDB81AAD1FC0" name="강의실 PK">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:24:38 UTC</createdTime>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6FADD8F4-6164-4561-443B-08427C5BF80B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>14515ADC-884C-600A-5692-DE0018013317</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

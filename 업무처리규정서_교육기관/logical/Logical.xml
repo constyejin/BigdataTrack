@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="5031F292-6DFD-164A-FB65-0E2D97C89195" mainViewID="602B68E5-6B6A-0816-7A62-F510CF5B15F0">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:16:33 UTC</createdTime>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

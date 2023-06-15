@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDABD202-65E6-68CC-CE29-7318DD2673E1" name="강사">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>2ECAC75D-E241-522D-2221-55A31374E509</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="강사번호" id="5AEB3FC9-7E16-0E3E-0E2B-FD40ADBC2435">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>C61D93FC-C6D4-81DB-F7FC-A95E2DD68404</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="강사명" id="65580CD8-6DE4-5A30-B9F3-F6D4E7E3F15C">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>8028A222-7CB6-8C62-B601-6F707F3E717F</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="휴대폰전화번호" id="0866BD9A-3178-7A20-2716-BE1367EA1331">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>094ADBCF-06BB-F721-47CE-E85E1B1A82A1</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF8EEB6C-4B86-CD63-1175-852EBB3B6B78" name="강사_PK">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>33A36D98-30CF-C077-0A28-73A63FCD7795</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AEB3FC9-7E16-0E3E-0E2B-FD40ADBC2435"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

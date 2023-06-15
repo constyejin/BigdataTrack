@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70FE7C30-D80F-A277-C1FC-D7DEA7B5E985" name="수강">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>864A8F15-59F6-D3C6-992E-693A4BE91339</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="수강생_수강생번호" id="6D3CCDBD-DB10-023D-9F5E-864CA182BEC3">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>B32F928C-1F54-644D-62AE-6275518E6228</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CBEB80B-796D-B750-406B-B2C3766C287D" referredColumn="AD1A9BF5-8766-E7A5-93B5-1638F854B6E2"/>
+</associations>
+</Column>
+<Column name="과정_과정번호" id="B7427153-7EA7-2988-1290-67F4A3845E7C">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:56:51 UTC</createdTime>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AD1EC44-A268-EFE1-B646-B9F4FA1D7142" referredColumn="A08EDBED-4C90-D3B0-35BA-9394C85478BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0194EF6F-DCE1-3C7B-6C3C-9366D3E74DBE" name="수강_PK">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>C246BC9B-4CC6-0CB2-6FCC-136603C35C2A</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D3CCDBD-DB10-023D-9F5E-864CA182BEC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6E3BDF9-ADCD-9397-019E-36BCD5BBC83F" name="수강_수강생_FK">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>FA516B0B-4E0B-17AB-51B4-320EB14301D2</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D3CCDBD-DB10-023D-9F5E-864CA182BEC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="007F1D86-8115-1E59-F0FC-5A9D6656AC0B" name="수강_과정_FK">
+<createdBy>301-19</createdBy>
+<createdTime>2023-06-15 04:37:09 UTC</createdTime>
+<generatorID>9D37583D-4244-4C46-0D50-89D5E52E9B74</generatorID>
+<ownerDesignName>업무처리규정서_교육기관</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7427153-7EA7-2988-1290-67F4A3845E7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
