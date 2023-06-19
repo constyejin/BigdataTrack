@@ -30,6 +30,9 @@ for body in bodies:
     news_list.append([title, link])
     print([title, link])
 
+pre_pagenation = driver.find_element(By.CSS_SELECTOR, "div[class='sc_page_inner']")
+next_pagenation = pre_pagenation.find_element(By.LINK_TEXT, "2").click()
 
+# "div[class='sc_page_inner']"를 list로 담아서 반복문
 while(True):
     pass
