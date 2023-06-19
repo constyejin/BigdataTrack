@@ -1,6 +1,9 @@
 # 고수학 연산을 위해 임포트
 import numpy as np
 #  # scikit-learn의 샘플 데이터 로드를 위해 import
+# sklearn (scikit-learn install) => pip install scikit-learn
+# scikit-learn의 경우 Numpy, Scipy 모듈도 추가로 설치 해야한다. 
+# pip로 install시 자동설치 되므로 추가 설치 할 필요 X
 from sklearn.datasets import load_iris
 import sklearn.datasets
 
