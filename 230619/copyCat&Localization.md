@@ -14,5 +14,9 @@ https://www.spyfu.com/
 https://paperswithcode.com/sota
 
 
-### mMind Map
+### Mind Map
 https://freemind.softonic.kr/
+
+### AI 공모전
+https://www.kaggle.com/competitions (해외)
+https://dacon.io/ (국내)
