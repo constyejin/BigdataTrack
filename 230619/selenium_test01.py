@@ -28,8 +28,7 @@ for body in bodies:
     title = body.find_element(By.CSS_SELECTOR, "a[class='news_tit']").text
     link = body.find_element(By.CSS_SELECTOR, "a[class='news_tit']").get_attribute("href")
     news_list.append([title, link])
-
-print(news_list)
+    print([title, link])
 
 
 while(True):
