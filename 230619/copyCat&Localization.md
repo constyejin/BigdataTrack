@@ -12,3 +12,7 @@ https://www.spyfu.com/
 
 ### Browse State of the Art
 https://paperswithcode.com/sota
+
+
+### mMind Map
+https://freemind.softonic.kr/
