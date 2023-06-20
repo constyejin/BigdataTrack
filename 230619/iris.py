@@ -113,3 +113,9 @@ print(yejin_arr_2d.dtype)
 yejin_arr_2d = yejin_arr_2d.astype(np.int64)
 print(yejin_arr_2d.dtype)
 
+
+print(np.zeros((2, 3)))
+print(np.ones((2, 3)))
+print(np.full((2, 3), 10))
+
+# arr.T
