@@ -85,3 +85,19 @@ print(arr[1])
 print(dojun_arr_a >=5)
 # True 값만 추출
 print(dojun_arr_a[dojun_arr_a >=5])
+
+dojun_arr_c = np.array([["1",2,3], [4,5,6]])
+print(dojun_arr_c)
+
+
+# 3차원 배열
+dojun_arr_3d = np.array([[[1,2,3], [4,5,6]], [[7,8,9], [10,11,12]]])
+print(dojun_arr_3d)
+print(dojun_arr_3d.shape)
+
+# shape과 len의 차이 (len은 첫번째 값만)
+print(dojun_arr_3d.shape[0])
+print(len(dojun_arr_3d))
+print(len(dojun_arr_3d.shape))
+
+print(dojun_arr_3d.ndim)
