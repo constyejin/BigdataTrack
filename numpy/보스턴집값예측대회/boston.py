@@ -7,10 +7,18 @@ RM_arr = np.array(RM)
 MEDV_arr = np.array(MEDV)
 
 # 배열의 크기, 데이터타입 출력
-# print(type(RM_arr))
-# print(RM_arr.size)
-
-# print(type(MEDV_arr))
-# print(MEDV_arr.size)
+print(RM_arr.shape, MEDV_arr.shape)
+print(RM_arr.dtype, MEDV_arr.dtype)
 
 # 방 1개당 가격 배열 출력
+MEDV_arr = MEDV_arr / RM_arr
+print(MEDV_arr)
+
+# 전체데이터에 대한 방 1개당 가격 출력
+print(np.sum(MEDV_arr) / np.sum(RM_arr))
+
+# RM과 MEDV와 생성된 방 1개당 가격 배열을 합쳐서 2차원 배열을 생성.(생성된 배열에는 3개의 값을 각각 1개씩 포함)
+print(RM_arr.reshape(-1,1))
+# print(np.concatenate([RM_arr.reshape(-1,1), MEDV_arr.reshape(-1, 1), MEDV_RM_arr.reshape(-1,1)], axis=1))
+
+
