@@ -22,4 +22,4 @@ import joblib
 joblib.dump(model, './model/apt_price.pkl')
 
 load_model = joblib.load('./model/apt_price.pkl')
-print(load_model.predict([[1, 2010, 80, 10]]) )
+print(load_model.predict([[1, 2010, 80, 10]]))
