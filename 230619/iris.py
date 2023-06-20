@@ -66,10 +66,22 @@ print(dojun_arr_b[0])
 # slicing을 하면 차원이 하나 더 씌워진다.
 print(dojun_arr_b[:1])
 
+print(dojun_arr_a[0])
+print(dojun_arr_a[:1][0])
+
 # shape
-print((dojun_arr_b[0]).shape)
-print((dojun_arr_b[:1]).shape)
+# print((dojun_arr_b[0]).shape)
+# print((dojun_arr_b[:1]).shape)
 
 # ndim
-print((dojun_arr_b[0]).ndim)
-print((dojun_arr_b[:1]).ndim)
+# print((dojun_arr_b[0]).ndim)
+# print((dojun_arr_b[:1]).ndim)
+
+
+arr = np.array([[10, 20, 30, 40], [50, 60, 70, 80], [90, 100, 110, 120]])
+print(arr[1])
+
+# True / False로 값 반환
+print(dojun_arr_a >=5)
+# True 값만 추출
+print(dojun_arr_a[dojun_arr_a >=5])
