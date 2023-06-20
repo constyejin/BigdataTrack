@@ -101,3 +101,15 @@ print(len(dojun_arr_3d))
 print(len(dojun_arr_3d.shape))
 
 print(dojun_arr_3d.ndim)
+print(type(dojun_arr_3d[0][0][0]))
+
+yejin_arr_2d = np.array([[1,2,3], [4,5,6]])
+print(type(yejin_arr_2d[0][0]))
+
+# dtype
+yejin_arr_2d = np.array([[1,2,3], [4,5,6]], dtype = np.float32)
+print(yejin_arr_2d.dtype)
+
+yejin_arr_2d = yejin_arr_2d.astype(np.int64)
+print(yejin_arr_2d.dtype)
+
