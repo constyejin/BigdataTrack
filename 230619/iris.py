@@ -35,6 +35,7 @@ for dojun, sungjun in zip(dojun_list, sungjun_list):
 
 # print(dojun_arr / sungjun_arr)
 
+# indexing & slicing
 print(dojun_list[0])
 print(dojun_list[-1])
 print(dojun_list[-2])
@@ -42,3 +43,16 @@ print(dojun_list[-2])
 print(dojun_list[:])
 # 3개 다 나오게 하고싶다면 끝자리 수 + 1
 print(dojun_list[0:2])
+
+# tuple & list (2차원 배열)
+dojun_arr_a = np.array([(1,2,3), (4,5,6)])
+dojun_arr_b = np.array([(1,2,3), (4,5,6)])
+
+print(dojun_arr_a[0][1])
+print(dojun_arr_a[1])
+print(dojun_arr_b)
+
+# type of
+print(type(dojun_arr_a))
+print(type(dojun_arr_b))
+print(type(dojun_arr_b[0][1]))
