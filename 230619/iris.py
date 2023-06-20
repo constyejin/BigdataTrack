@@ -56,3 +56,12 @@ print(dojun_arr_b)
 print(type(dojun_arr_a))
 print(type(dojun_arr_b))
 print(type(dojun_arr_b[0][1]))
+
+# 값 바꾸기
+dojun_arr_b[0][1] = 20
+print(dojun_arr_b)
+
+# 1차원 데이터, 2차원 데이터
+print(dojun_arr_b[0])
+# slicing을 하면 차원이 하나 더 씌워진다.
+print(dojun_arr_b[:1])
