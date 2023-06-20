@@ -119,3 +119,9 @@ print(np.ones((2, 3)))
 print(np.full((2, 3), 10))
 
 # arr.T
+
+arr3 = np.array([[1,2,3], [4,5,6]])
+arr4 = np.array([[7,8,9], [10,11,12]])
+print(np.append(arr3, arr4))
+# print(np.insert(arr, 3, 10))
+# print(np.delete(arr, 0))
