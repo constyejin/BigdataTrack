@@ -31,6 +31,14 @@ total_arr = dojun_arr + sungjun_arr
 
 for dojun, sungjun in zip(dojun_list, sungjun_list):
   rate = dojun / sungjun
-  print(rate)
+  # print(rate)
 
-print(dojun_arr / sungjun_arr)
+# print(dojun_arr / sungjun_arr)
+
+print(dojun_list[0])
+print(dojun_list[-1])
+print(dojun_list[-2])
+# 0부터 시작 : 뒤에 생략 
+print(dojun_list[:])
+# 3개 다 나오게 하고싶다면 끝자리 수 + 1
+print(dojun_list[0:2])
