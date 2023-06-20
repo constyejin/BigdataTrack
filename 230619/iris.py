@@ -65,3 +65,11 @@ print(dojun_arr_b)
 print(dojun_arr_b[0])
 # slicing을 하면 차원이 하나 더 씌워진다.
 print(dojun_arr_b[:1])
+
+# shape
+print((dojun_arr_b[0]).shape)
+print((dojun_arr_b[:1]).shape)
+
+# ndim
+print((dojun_arr_b[0]).ndim)
+print((dojun_arr_b[:1]).ndim)
