@@ -1,0 +1,6 @@
+query	no	title	link	description	total_text
+서평 역행자	1	역행자 라는 책이 왜 베스트셀러 인가요?	https://kin.naver.com/qna/detail.naver?d1id=8&dirId=80606&docId=422294069&qb=7ISc7Y+JIOyXre2WieyekA==&enc=utf8&section=kin.qna&rank=1&search_sort=0&spq=0	역행자 라는 책이 왜 베스트셀러 인가요?	역행자 라는 책이 왜 베스트셀러 인가요?  역행자 라는 책이 왜 베스트셀러 인가요?
+서평 역행자	2	지방대 4년제 대졸, 전자제어공학과 전공, 전기쌍기사... 	https://kin.naver.com/qna/detail.naver?d1id=4&dirId=406&docId=433957500&qb=7ISc7Y+JIOyXre2WieyekA==&enc=utf8&section=kin.qna&rank=2&search_sort=0&spq=0	지방대 4년제 대졸, 전자제어공학과 전공, 전기쌍기사... 	지방대 4년제 대졸, 전자제어공학과 전공, 전기쌍기사...   지방대 4년제 대졸, 전자제어공학과 전공, 전기쌍기사... 
+서평 역행자	3	군대에서 읽을 경제 책 추천	https://kin.naver.com/qna/detail.naver?d1id=11&dirId=110302&docId=435608424&qb=7ISc7Y+JIOyXre2WieyekA==&enc=utf8&section=kin.qna&rank=3&search_sort=0&spq=0	군대에서 읽을 경제 책 추천	군대에서 읽을 경제 책 추천  군대에서 읽을 경제 책 추천
+서평 역행자	101	지방대 4년제 대졸, 전자제어공학과 전공, 전기쌍기사... 	https://kin.naver.com/qna/detail.naver?d1id=4&dirId=406&docId=433957500&qb=7ISc7Y+JIOyXre2WieyekA==&enc=utf8&section=kin.qna&rank=2&search_sort=0&spq=0	지방대 4년제 대졸, 전자제어공학과 전공, 전기쌍기사... 	지방대 4년제 대졸, 전자제어공학과 전공, 전기쌍기사...   지방대 4년제 대졸, 전자제어공학과 전공, 전기쌍기사... 
+서평 역행자	102	군대에서 읽을 경제 책 추천	https://kin.naver.com/qna/detail.naver?d1id=11&dirId=110302&docId=435608424&qb=7ISc7Y+JIOyXre2WieyekA==&enc=utf8&section=kin.qna&rank=3&search_sort=0&spq=0	군대에서 읽을 경제 책 추천	군대에서 읽을 경제 책 추천  군대에서 읽을 경제 책 추천
