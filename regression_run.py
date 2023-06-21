@@ -17,4 +17,4 @@ loaded_model = joblib.load('./model/apt_price.pkl')
 print(loaded_model.predict([[1, int(year), int(squere), int(floor)]]))
 
 pred = loaded_model.predict([[1, int(year), int(squere), int(floor)]])
-print("예측금액은 {:,.0f}만원입니다.".format(pred[0]))
+print("예측금액은 {:,.0f}만원입니다.".format(pred[0]) )
